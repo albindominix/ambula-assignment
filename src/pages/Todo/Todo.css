@@ -1,0 +1,39 @@
+.todo-main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: aliceblue;
+}
+
+.container{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  width: 40rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  height: 6rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.react-icons{
+  display: flex;
+  gap: 1.5rem
+}
+.btn{
+  border: none;
+  padding: 1rem 2rem;
+  background-color: #faad14a1;
+  color: white;
+  border-radius: 10px;
+  width: 40rem;
+  font-size: large;
+  font-weight:700;
+  cursor: pointer;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
